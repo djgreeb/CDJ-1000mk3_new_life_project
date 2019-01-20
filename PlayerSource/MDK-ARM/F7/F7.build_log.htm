@@ -1,0 +1,85 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Angus Mack, Mr, LIC=3UURA-1ACCT-UMZ9A-1SLE7-LZ2PP-Q1WZ8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.26.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.5.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\angus\OneDrive\Projects\F7 XDJ_PANEL\F7 XDJ_PANEL\MDK-ARM\F7.uvprojx
+Project File Date:  01/20/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'F7'
+compiling main.c...
+../Src/main.c(2079): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	BSP_LCD_DisplayStringAt(420,257,FIRMWARE_VERSION, LEFT_MODE);	
+../Src/main.c(2339): warning:  #223-D: function "FillTriangle" declared implicitly
+  						FillTriangle(i+37, i+43, i+40, 79, 79, 82);	
+../Src/main.c(2367): warning:  #223-D: function "FillTriangle" declared implicitly
+  							FillTriangle(i+37, i+43, i+40, 79, 79, 82);
+../Src/main.c(2376): warning:  #223-D: function "FillTriangle" declared implicitly
+  				FillTriangle(i+37, i+43, i+40, 170, 170, 167);	
+../Src/main.c(2455): warning:  #223-D: function "FillTriangle" declared implicitly
+  			FillTriangle(p+36, p+42, p+39, 269, 269, 266);
+../Src/main.c(2487): warning:  #223-D: function "FillTriangle" declared implicitly
+  				FillTriangle(p+36, p+42, p+39, 226, 226, 229);
+../Src/main.c(2492): warning:  #223-D: function "FillTriangle" declared implicitly
+  				FillTriangle(p+36, p+42, p+39, 226, 226, 229);
+../Src/main.c(3667): warning:  #223-D: function "FillTriangle" declared implicitly
+  		FillTriangle(20, 20, 27, 20+(19*UCurrentCursorPosition), 34+(19*UCurrentCursorPosition), 27 +(19*UCurrentCursorPosition));	
+../Src/main.c(4688): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		BSP_LCD_DisplayStringAt(35, 21+(19*E), UTILITY_BASE[E+CurrentUPosition-1], TRANSPARENT_MODE);
+../Src/main.c(4709): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	BSP_LCD_DisplayStringAt(35, 21+(19*UCurrentCursorPosition), UTILITY_BASE[UCurrentCursorPosition+CurrentUPosition-1], TRANSPARENT_MODE);	
+../Src/main.c(4723): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	BSP_LCD_DisplayStringAt(35,21+(19*UCurrentCursorPosition), UTILITY_BASE[UCurrentCursorPosition+CurrentUPosition-1], TRANSPARENT_MODE);
+../Src/main.c(4740): warning:  #223-D: function "FillTriangle" declared implicitly
+  	FillTriangle(20, 20, 27, 20+(19*UCurrentCursorPosition), 34+(19*UCurrentCursorPosition), 27 +(19*UCurrentCursorPosition));		
+../Src/main.c: 12 warnings, 0 errors
+linking...
+Program Size: Code=90352 RO-data=4584292 RW-data=6797084 ZI-data=181072  
+FromELF: creating hex file...
+"F7\F7.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.4.0.pack
+                ARM.CMSIS.5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F7xx_DFP.2.11.0.pack
+                Keil.STM32F7xx_DFP.2.11.0
+                STMicroelectronics STM32F7 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_F7
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.2
+Build Time Elapsed:  00:00:29
+</pre>
+</body>
+</html>
