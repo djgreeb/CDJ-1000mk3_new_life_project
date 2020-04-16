@@ -37,11 +37,17 @@ Added support for some Rekordbox functions, display of static and dynamic wavefo
 //		-	changed color and style gradient bar
 //		-	changed color dynamic waveform
 //		- optimized dynamic waveform work
+
 //		- added QUANTIZE for CUE and LOOP
+
 //		- exclude noise at the end of the track
+
 //		- added CRC control for SPI Rx package
+
 //		- fixed start phase detection BEATGRID
+
 //		-	added LOOP MODE (beta)
+
 //		- optimized time display function to improve performance	
 
 SOURCE CODE LINK:
