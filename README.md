@@ -82,6 +82,43 @@ Added support for some Rekordbox functions, display of static and dynamic wavefo
 
 //		- optimized time display function to improve performance	
 
+//	ver. 1.03
+
+//		- changed function control for SPI Rx package
+
+//		- in UTILITY it is now possible to change parameters and save to internal memory
+
+//		- added load lock
+
+//		- added AUTO CUE LEVEL with MEMORY, FIRST BEAT MODE and analog tresholds (-36dB, -42dB and other)
+
+//		- added TIME MODE DEFAULT 
+
+//		- added TEMPO RANGE DEFAULT 
+
+//		- SLIP REVERSE MODE for REVERSE SWITCH
+
+//		- added ability to select RGB or BLUE waveforms
+
+//		- added LCD brightness
+
+//		- added jog indicator when the track ends 
+
+//		- added jog brightness
+
+//		- added BPM color
+
+//		- added audio output level
+
+//		- for use JOG PWM output pin CN4-7 for it to work. see schematic STM32F746 Discovery
+
+//		- for LCD PWM to work, remove R85 and install
+
+//		  it between U10-7 and GND. Remove R81 and R66. Connect together the U10-7 and RMII_CRS_DV, 
+
+//		  at the point where R66 was.) see schematic STM32F746 Discovery
+
+
 SOURCE CODE LINK:
 https://drive.google.com/open?id=18gmD5JTporbCdqWj66FL6tRKBdp1W8vY
 
