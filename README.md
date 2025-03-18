@@ -58,15 +58,15 @@ Added support for some Rekordbox functions, display of static and dynamic wavefo
 
 //		- fixed floating pitch tempo values
 
-//		-	improved slip mode on CUE
+//		- improved slip mode on CUE
 
 //		- fixed the work of jog with a hot CUE
 
-//		-	improved mechanical imitation of jog
+//		- improved mechanical imitation of jog
 
-//		-	changed color and style gradient bar
+//		- changed color and style gradient bar
 
-//		-	changed color dynamic waveform
+//		- changed color dynamic waveform
 
 //		- optimized dynamic waveform work
 
@@ -78,7 +78,7 @@ Added support for some Rekordbox functions, display of static and dynamic wavefo
 
 //		- fixed start phase detection BEATGRID
 
-//		-	added LOOP MODE (beta)
+//		- added LOOP MODE (beta)
 
 //		- optimized time display function to improve performance	
 
