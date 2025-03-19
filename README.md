@@ -1,6 +1,6 @@
 Screen with wide version of the waveform (1.17)
 
-![v 1 17](https://github.com/user-attachments/assets/feb41ebc-273e-4fc2-968b-50587891446a)
+![v 1 17](https://github.com/user-attachments/assets/4c21c986-d4ea-44b4-be2e-07615a226e58)
 
 Screenshot of previous versions
 
