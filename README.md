@@ -1,4 +1,4 @@
-#CDJ-1000mk3 new life
+# CDJ-1000mk3 new life
 
 CDJ-1000mk3 new life - is a project to give new life to the Pioneer CDJ-1000mk3 dj player.
 
