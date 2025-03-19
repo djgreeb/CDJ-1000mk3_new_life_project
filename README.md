@@ -19,3 +19,10 @@
       //		- added an algorithm for smooth changes in the TRIM variable to prevent clicks in the sound when there is a sudden change
       //	ver. 1.17
       //		- the dynamic waveform is now 480px wide and has HOT CUEs lettering
+
+
+
+https://drive.google.com/file/d/1VFx4JItAnkkie4v-_Njo-SxVj8lTepl5/view?usp=sharing
+
+https://drive.google.com/open?id=18gmD5JTporbCdqWj66FL6tRKBdp1W8vY
+
