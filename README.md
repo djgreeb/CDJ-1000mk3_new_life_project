@@ -1,7 +1,14 @@
+Screen with wide version of the waveform (1.17)
+
+![v 1 17](https://github.com/user-attachments/assets/feb41ebc-273e-4fc2-968b-50587891446a)
+
+Screenshot of previous versions
+
+![scrn7](https://github.com/user-attachments/assets/7b9070c4-3cd0-40a5-979a-4c2b0332c9e2)
+
 
       Version history:
-      
-      
+            
 	ver. 0.61a
 		- optimized browser function
 		- added dark_green color in browser for text on white line cursor 
