@@ -1,3 +1,15 @@
+#CDJ-1000mk3 new life
+
+CDJ-1000mk3 new life - is a project to give new life to the Pioneer CDJ-1000mk3 dj player.
+
+The CDJ-1000mk3 with faulty CD drive or main assy is suitable for the project. It is important that the power supply and control panel boards are in good working order.
+
+The player is connected to the STM32F746G-DISCO board, for which firmware has been created that simulates the CDJ-2000nxs graphical interface, audio playback from micro SD cards, and playback control using the CDJ-1000mk3 control elements.
+
+The current version of the project is developed and tested only for CDJ-1000mk3. Mk1 and MK2 are not supported, although theoretically it is possible, but requires code modification and testing with these players.
+
+
+
 Screen with wide version of the waveform (1.17)
 
 ![v 1 17](https://github.com/user-attachments/assets/4c21c986-d4ea-44b4-be2e-07615a226e58)
