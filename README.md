@@ -24,7 +24,7 @@
 	ver. 0.67a
 		- added basic function needle search
 		- fixed function BSP_LCD_DisplayStringAt. 
-		-	added TRANSPARENT_MODE for text. 
+		- added TRANSPARENT_MODE for text. 
 		- changed method of determination the font with dynamic width (Font15P) and other fonts with static width.  
 		- optimized touch controller driver
 		- create audioparcer for SEEK function
@@ -92,8 +92,8 @@
 		- added CUE blink
 		- improved time mode button code
 		- added VINYL RELEASE/START and TOUCH/BREAKE mode 
-		-	optimized SPI-DMA transfer process
-		-	optimized potenciometer's curve for VINYL RELEASE/START and TOUCH/BREAKE mode
+		- optimized SPI-DMA transfer process
+		- optimized potenciometer's curve for VINYL RELEASE/START and TOUCH/BREAKE mode
 	ver. 0.82a
 		- added track nubmer and status (playing or played) in INFO mode
 		- added filling buffer step sequencer for optimize time gaps
@@ -144,40 +144,40 @@
 		- improved browser menu
 		- add flash disk name and date (at the root of the browser)
 		- fixed floating pitch tempo values
-		-	improved slip mode on CUE
+		- improved slip mode on CUE
 		- fixed the work of jog with a hot CUE
-		-	improved mechanical imitation of jog
-		-	changed color and style gradient bar
-		-	changed color dynamic waveform
+		- improved mechanical imitation of jog
+		- changed color and style gradient bar
+		- changed color dynamic waveform
 		- optimized dynamic waveform work
 		- added QUANTIZE for CUE and LOOP
 		- exclude noise at the end of the track
 		- added CRC control for SPI Rx package
 		- fixed start phase detection BEATGRID
-		-	added LOOP MODE (beta)
+		- added LOOP MODE (beta)
 		- optimized time display function to improve performance	
 	ver. 1.03
-		-	changed function control for SPI Rx package
+		- changed function control for SPI Rx package
 		- in UTILITY it is now possible to change parameters and save to internal memory
 		- added load lock
 		- added AUTO CUE LEVEL with MEMORY, FIRST BEAT MODE and analog tresholds (-36dB, -42dB and other)
-		-	added TIME MODE DEFAULT 
-		-	added TEMPO RANGE DEFAULT 
-		-	SLIP REVERSE MODE for REVERSE SWITCH
-		-	added ability to select RGB or BLUE waveforms
-		-	added LCD brightness
-		-	added jog indicator when the track ends 
-		-	added jog brightness
-		-	added BPM color
-		-	added audio output level
+		- added TIME MODE DEFAULT 
+		- added TEMPO RANGE DEFAULT 
+		- SLIP REVERSE MODE for REVERSE SWITCH
+		- added ability to select RGB or BLUE waveforms
+		- added LCD brightness
+		- added jog indicator when the track ends 
+		- added jog brightness
+		- added BPM color
+		- added audio output level
 		- for use JOG PWM output pin CN4-7 for it to work. see schematic STM32F746 Discovery
 		- for LCD PWM to work, remove R85 and install 
 			it between U10-7 and GND. Remove R81 and R66. Connect together the U10-7 and RMII_CRS_DV, 
 			at the point where R66 was.) see schematic STM32F746 Discovery
 	ver. 1.05
-		-	added dynamic waveform color map from original dump cdj-2000nxs
+		- added dynamic waveform color map from original dump cdj-2000nxs
 	ver. 1.07
-		-	fixed rekordbox parser from parser version 0.39 SLDZ project
+		- fixed rekordbox parser from parser version 0.39 SLDZ project
 	ver. 1.11 
 		- SDRAM initialization has been removed, which speeds up loading
 		- the code is split into separate files
